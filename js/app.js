@@ -7,14 +7,8 @@ let myapp = {
     methods: {
         onclose(){
             tg.close();
-        },
-        useEffect(){
-            tg.ready();
         }
     },  
-    mounted() {
-        useEffect();
-    },
 };
 
 const app = Vue.createApp(myapp);
