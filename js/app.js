@@ -1,3 +1,5 @@
+const tg = window.Telegram.Webapp;
+
 let myapp = {
     data() {
         return {
