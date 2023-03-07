@@ -1,18 +1,7 @@
-const tg = window.Telegram.Webapp;
+let cls = document.getElementById("close");
 
-let myapp = {
-    data() {
-        return {
-            title: "rabotaet"
-        }
-    },
-    methods: {
-        onclose(){
-            tg.close();
-        }
-    },  
-};
+let tg = window.Telegram.WebApp;
 
-const app = Vue.createApp(myapp);
-
-app.mount("#app");
+cls.addEventListener('click', () => {
+    tg.close()
+})
