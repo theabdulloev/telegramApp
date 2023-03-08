@@ -2,7 +2,7 @@ let cls = document.getElementById("close");
 let username = document.querySelector(".username");
 let toggle = document.querySelector(".toggle");
 let tg = window.Telegram.WebApp;
-tg.expand;
+tg.expand();
 cls.addEventListener('click', () => {
     tg.close()
 })
