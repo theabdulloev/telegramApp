@@ -13,11 +13,14 @@ username.innerHTML += JSON.stringify(tg)
 
 
 toggle.addEvenListener('click',function(){
+
    if(tg.MainButton.isVisible){
-    tg.MainButton.show()
+    tg.MainButton.show();
+    tg.showAlert('rabotaet');
    }
    else{
-    tg.MainButton.hide()
+    tg.MainButton.hide();
+    tg.showAlert('ok');
    }
 })
 
