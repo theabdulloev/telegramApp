@@ -10,7 +10,7 @@ username.innerHTML = tg.initDataUnsafe?.user?.username;
 username.innerHTML += JSON.stringify(tg)
 
 tg.sendData('hello');
-tg.showAlert('Привет')
+
 
 toggle.addEvenListener('click',function(){
    if(tg.MainButton.isVisible){
