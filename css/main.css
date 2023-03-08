@@ -8,3 +8,7 @@ body {
     background-color: var(--tg-theme-bg-color);
     columns: var(--tg-theme-text-color);
 }
+
+button {
+    background: var(--tg-theme-button-color);
+}
