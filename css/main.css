@@ -6,7 +6,7 @@
 
 body {
     background-color: var(--tg-theme-bg-color);
-    columns: var(--tg-theme-text-color);
+    color: var(--tg-theme-text-color);
 }
 
 button {
