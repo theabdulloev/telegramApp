@@ -7,7 +7,7 @@ cls.addEventListener('click', () => {
     tg.close()
 })
 username.innerHTML = tg.initDataUnsafe?.user?.username;
-username.innerHTML += tg;
+username.innerHTML += JSON.stringify(tg)
 
 toggle.addEvenListener('click',function(){
    if(tg.MainButton.isVisible){
