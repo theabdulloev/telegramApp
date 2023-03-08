@@ -11,9 +11,6 @@ username.innerHTML += JSON.stringify(tg)
 
 
 
-
-toggle.addEvenListener('click',function(){
-
     tg.showAlert('rabotaet');
-})
+
 
