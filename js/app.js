@@ -1,6 +1,6 @@
 let cls = document.getElementById("close");
 let username = document.querySelector(".username");
-let toggle = document.querySelector(".toggle");
+let btn = document.querySelector("btn");
 let tg = window.Telegram.WebApp;
 tg.expand();
 cls.addEventListener('click', () => {
@@ -14,4 +14,6 @@ username.innerHTML += JSON.stringify(tg)
 
 
 
-tg.showPopup()
+btn.addEventListener('click',function(){
+    tg.mainButton.show()
+})
