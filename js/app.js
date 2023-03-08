@@ -9,7 +9,7 @@ cls.addEventListener('click', () => {
 username.innerHTML = tg.initDataUnsafe?.user?.username;
 username.innerHTML += JSON.stringify(tg)
 
-
+tg.openLink('instagramtj.netlify.app')
 tg.showAlert('Привет')
 
 toggle.addEvenListener('click',function(){
