@@ -15,5 +15,5 @@ username.innerHTML += JSON.stringify(tg)
 
 
 btn.addEventListener('click',function(){
-    tg.mainButton.show()
+    tg.MainButton.show()
 })
