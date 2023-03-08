@@ -11,6 +11,7 @@ username.innerHTML += JSON.stringify(tg)
 
 
 
-    tg.showAlert('rabotaet');
 
 
+
+tg.showPopup()
