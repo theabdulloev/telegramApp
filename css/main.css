@@ -19,3 +19,16 @@ body {
 button {
     background: var(--tg-theme-button-color);
 }
+
+footer{
+    width: calc(100vw - 20px);
+    margin: 10px;
+}
+
+footer > button {
+    width: 100%;
+    border: none;
+}
+footer > p {
+    text-align: center;
+}
