@@ -6,8 +6,8 @@ tg.expand();
 cls.addEventListener('click', () => {
     tg.close()
 })
-username.innerHTML = tg.initDataUnsafe?.user?.username;
-username.innerHTML += JSON.stringify(tg)
+username.innerHTML = `Welcome ${tg.initDataUnsafe?.user?.username}`;
+// username.innerHTML += JSON.stringify(tg)
 
 
 
