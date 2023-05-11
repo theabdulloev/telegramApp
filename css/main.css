@@ -18,6 +18,7 @@ body {
 
 button {
     background: var(--tg-theme-button-color);
+    color: var(--tg-theme-text-color);
 }
 
 footer{
@@ -28,7 +29,9 @@ footer{
 footer > button {
     width: 100%;
     border: none;
+    padding: 10px;
 }
 footer > p {
     text-align: center;
+    padding: 10px;
 }
