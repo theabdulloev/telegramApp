@@ -21,6 +21,19 @@ button {
     color: var(--tg-theme-text-color);
 }
 
+.center{
+    width: calc(100vw - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.center > div > button{
+    padding: 10px;
+}
+
 footer{
     width: calc(100vw - 20px);
     margin: 10px;
@@ -35,3 +48,4 @@ footer > p {
     text-align: center;
     padding: 10px;
 }
+
